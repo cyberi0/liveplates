@@ -8,7 +8,7 @@ cam = cv2.VideoCapture(0)
 cv2.namedWindow("test")
 time.sleep(1)
 
-alpr = Alpr("eu", "openalpr.conf", "runtime_data")
+alpr = Alpr("mx", "openalpr.conf", "runtime_data")
 if not alpr.is_loaded():
     print("Error loading OpenALPR")
     sys.exit(1)
