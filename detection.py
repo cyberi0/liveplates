@@ -4,7 +4,7 @@ import sys
 import os
 import time
 
-cam = cv2.VideoCapture(1)
+cam = cv2.VideoCapture(0)
 cv2.namedWindow("test")
 time.sleep(1)
 
