@@ -13,7 +13,7 @@ command line output of the stream.
 # Running the script:
 
 Running from the repo base directory: 
-`python ./detection.py`
+`python3 ./detection.py`
 
 # Required dependencies
 The camera livestream requires OpenCV to be installed on the system. 
